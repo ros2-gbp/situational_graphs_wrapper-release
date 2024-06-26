@@ -1,0 +1,12 @@
+Source: ros-iron-situational-graphs-wrapper
+Section: misc
+Priority: optional
+Maintainer: adminpc <josmilrom@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-iron-ament-copyright <!nocheck>, ros-iron-ament-flake8 <!nocheck>, ros-iron-ament-pep257 <!nocheck>, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-situational-graphs-wrapper
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-iron-ros-workspace
+Description: Graph wrapper for situational_graphs_wrapper repo
